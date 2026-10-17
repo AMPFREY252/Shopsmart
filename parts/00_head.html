@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShopSmart — Sell Smart. Stock Smart. Grow Smart.</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+.bi { vertical-align: -0.125em; line-height: 1; }
+.nav-ic { display: inline-flex; width: 1.5rem; justify-content: center; font-size: 1.05rem; }
+.h-ic { display: inline-flex; align-items: center; gap: 0.45rem; }
+.h-ic > .bi { font-size: 1.05rem; color: #16a34a; }
+.btn .bi, .btn-primary .bi, .btn-dark .bi, .btn-ghost .bi, .btn-danger .bi { font-size: 1em; }
+/*__TAILWIND__*/
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="modal-root" class="no-print"></div>
+<div id="toast-root" class="fixed z-50 bottom-4 right-4 flex flex-col gap-2 items-end no-print"></div>
+<div id="print-area" style="display:none"></div>
+<script>
+'use strict';
+function bi(name, cls){ return '<i class="bi bi-' + name + (cls ? ' ' + cls : '') + '" aria-hidden="true"></i>'; }
+
