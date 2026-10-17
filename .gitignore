@@ -1,0 +1,15 @@
+node_modules/
+src/out.css
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Scratch / local dumps
+_*.js
+_*.txt
+*.log
